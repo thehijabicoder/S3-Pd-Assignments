@@ -32,4 +32,6 @@ CONTENTS
 8.4 Expression(postfix) read from a file and conversion to expression tree  
 9.1 Operations on a Tree  
 9.2 Application(tree)  
-  
+10.1 Reversing a singly Linked List  
+10.2 Recursive Reversing of Linked List(singly)  
+
