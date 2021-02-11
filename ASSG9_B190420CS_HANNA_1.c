@@ -33,6 +33,7 @@ void insert(tree* t,node* x)
 		else
 		z=z->right;
 	}
+	if(x!=NULL)
 	x->p=y;
 	if(y==NULL)
 	t->root=x;
@@ -44,14 +45,17 @@ void insert(tree* t,node* x)
 
 void transplant(tree* t,node* u,node* v)
 {
-	if(u->p==NULL)
-	t->root=v;
-	else if(u==u->p->left)
-	u->p->left=v;
-	else
-	u->p->right=v;
-	if(v!=NULL)
-	v->p=u->p;
+	if(u!=NULL)
+	{
+		if(u->p==NULL)
+		t->root=v;
+		else if(u->p->left!=NULL && u==u->p->left)
+		u->p->left=v;
+		else
+		u->p->right=v;
+		if(v!=NULL)
+		v->p=u->p;
+	}
 }
 
 node* tree_minimum(node* x)
@@ -80,10 +84,12 @@ void delete_(tree* t,node* x)
 		{
 			transplant(t,y,y->right);
 			y->right=x->right;
+			if(y->right!=NULL)
 			y->right->p=y;
 		}
 		transplant(t,x,y);
 		y->left=x->left;
+		if(y->keft!=NULL)
 		y->left->p=y;
 	}
 	printf("\n%d",d);
