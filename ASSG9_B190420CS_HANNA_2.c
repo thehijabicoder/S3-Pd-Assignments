@@ -94,7 +94,7 @@ void delete_(tree* t,node* x)
 		}
 		transplant(t,x,y);
 		y->left=x->left;
-		if(y->keft!=NULL)
+		if(y->left!=NULL)
 		y->left->p=y;
 	}
 	printf("\n%d",d);
