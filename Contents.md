@@ -28,7 +28,7 @@
 7.4 [Queue as Linked List](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG7_B190420CS_HANNA_4.c)  
 8.1 [Infix to Postfix Conversion of a Mathematical expression](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG8_B190420CS_HANNA_1.c)  
 8.2 [Postfix Expression Evaluation](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG8_B190420CS_HANNA_2.c)  
-8.3 [Expression Tree Contruction and Recursive Traversal](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG8_B190420CS_HANNA_4.c)  
+8.3 [Expression Tree Construction and Recursive Traversal](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG8_B190420CS_HANNA_4.c)  
 8.4 [Expression(postfix) read from a file and conversion to expression tree](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG8_B190420CS_HANNA_3.c)  
 9.1 [Operations on a BST](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG9_B190420CS_HANNA_1.c)  
 9.2 [Application(BST)](https://github.com/hanna13n/S3-Pd-Assignments/blob/main/ASSG9_B190420CS_HANNA_2.c)  
